@@ -1,12 +1,12 @@
-FROM nginx_php:0.1
-MAINTAINER aaaa
+FROM dchkang83/centos7-php7-nginx1:latest
+MAINTAINER Deokjoon Kang <dchkang83@naver.com>
 
 # add nginx, php files
 
 #ENV \
 #  PATH=/root/programs/nginx/sbin:/root/programs/php/bin:/root/programs/php/sbin:$PATH
 
-#EXPOSE 80 443
+EXPOSE 80 443
 
 
 # sh Àû¿ë
