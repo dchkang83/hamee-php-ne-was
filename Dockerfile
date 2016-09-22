@@ -11,6 +11,7 @@ EXPOSE 80 443
 
 # sh copy
 COPY entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 
 # put customized config and code files to /data
 #VOLUME ["/data"]
