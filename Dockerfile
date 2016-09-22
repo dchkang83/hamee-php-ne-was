@@ -9,7 +9,7 @@ ENV \
 EXPOSE 80 443
 
 
-# sh Àû¿ë
+# sh copy
 COPY entrypoint.sh /
 
 # put customized config and code files to /data
