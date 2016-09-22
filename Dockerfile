@@ -3,8 +3,8 @@ MAINTAINER Deokjoon Kang <dchkang83@naver.com>
 
 # add nginx, php files
 
-ENV \
-  PATH=/root/programs/nginx/sbin:/root/programs/php/bin:/root/programs/php/sbin:$PATH
+#ENV \
+#  PATH=/root/programs/nginx/sbin:/root/programs/php/bin:/root/programs/php/sbin:$PATH
 
 EXPOSE 80 443
 
